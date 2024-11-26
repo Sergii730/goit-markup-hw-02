@@ -1,5 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  width: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
   background-color: #fff;
 }
 
@@ -17,28 +21,38 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
+  letter-spacing: 2%;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.web {
-  color: #4d5ae5;
+.logo:hover,
+.logo:focus,
+.menu-nav:hover,
+.menu-nav:focus,
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+
+.studio {
+  color: #2e2f42;
 }
 
 .menu-nav {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 2%;
   color: #2e2f42;
 }
 
-.cont {
+.contacts {
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -47,8 +61,8 @@ a {
 .page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
+  line-height: 60px;
+  letter-spacing: 2%;
   text-align: center;
   color: #fff;
 }
@@ -56,8 +70,8 @@ a {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
+  line-height: 40px;
+  letter-spacing: 2%;
   text-align: center;
   color: #2e2f42;
 }
@@ -65,8 +79,8 @@ a {
 .title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 2%;
   color: #2e2f42;
 }
 
