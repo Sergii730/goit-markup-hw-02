@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -22,30 +23,31 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 2%;
-  text-decoration: none;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .logo:hover,
 .logo:focus,
-.menu-nav:hover,
-.menu-nav:focus,
+.logo-footer:hover,
+.logo-footer:focus,
+.link-nav:hover,
+.link-nav:focus,
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
 
-.studio {
+.logo .studio {
   color: #2e2f42;
 }
 
-.menu-nav {
+.link-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -56,6 +58,22 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #404bbf;
 }
 
 .page-title {
@@ -80,7 +98,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -93,11 +111,16 @@ a {
 }
 
 .logo-footer {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-footer .studio-footer {
   color: #f4f4fd;
 }
 
