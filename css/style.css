@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -52,6 +53,7 @@ button {
   color: #404bbf;
 }
 .address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -60,7 +62,6 @@ button {
 .address-item-link {
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -124,7 +125,7 @@ button {
 
 /* #region Team */
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .section-title {
   font-weight: 700;
@@ -133,6 +134,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
@@ -160,8 +162,11 @@ button {
 .portfolio {
 }
 .section-title {
+  text-transform: capitalize;
 }
-.portfolio-row {
+.portfolio-row-one {
+}
+.portfolio-row-two {
 }
 .portfolio-item {
 }
