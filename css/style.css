@@ -32,6 +32,9 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
+.logo:focus {
+}
 .logo-style-header {
   color: #2e2f42;
 }
@@ -125,7 +128,7 @@ button {
 
 /* #region Team */
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .section-title {
   font-weight: 700;
@@ -139,6 +142,7 @@ button {
 .team-list {
 }
 .team-item {
+  background: #fff;
 }
 .team-title {
   font-weight: 500;
